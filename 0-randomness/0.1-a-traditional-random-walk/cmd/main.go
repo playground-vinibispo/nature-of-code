@@ -1,6 +1,8 @@
 package main
 
 import (
+	"math/rand"
+
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
@@ -44,16 +46,8 @@ func (w *Walker) Show() {
 }
 
 func (w *Walker) Step() {
-	walkerStep := rl.GetRandomValue(0, 3)
-
-	switch walkerStep {
-	case 0:
-		w.X++
-	case 1:
-		w.X--
-	case 2:
-		w.Y++
-	case 3:
-		w.Y--
-	}
+	xStep := -1 + rand.Float32()*2
+	yStep := -1 + rand.Float32()*2
+	w.X += xStep
+	w.Y += yStep
 }
