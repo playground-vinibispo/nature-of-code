@@ -1,0 +1,3 @@
+module github.com/playground-vinibispo/nature-of-code/tree/main/0-randomness/0.1-a-traditional-random-walk
+
+go 1.22.1
