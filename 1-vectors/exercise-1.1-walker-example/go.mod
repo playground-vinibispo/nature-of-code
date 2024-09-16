@@ -1,4 +1,4 @@
-module github.com/playground-vinibispo/nature-of-code/tree/main/0-randomness/0.6-a-perlin-noise-walker
+module github.com/playground-vinibispo/nature-of-code/tree/main/1-vectors/exercise-1.1-walker-example
 
 go 1.22.1
 
